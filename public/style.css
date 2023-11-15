@@ -1,0 +1,409 @@
+
+/* phone mode  */
+@media screen and (max-width: 768px){
+
+    html, body{
+        background-color: #CE5A67;
+        overflow-x: auto;
+    }
+    
+    .header-div{
+        text-align: left;
+        padding: 10px 10px;
+        font-size: 1rem;
+        color: #1F1717;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+    }
+    
+    .postal-form-div{
+        padding: 40px 10px 0 10px;
+    }
+    
+    .postal-label{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        text-align: left;
+        font-size: 1.3rem;
+        padding-right: 10px;
+    }
+    
+    .postal-code-input{
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        color: #1F1717;
+        font-size: 1rem;
+        background-color: #FCF5ED;
+        border-color: #FCF5ED;
+        padding-left: 10px;
+    }
+    
+    .postal-submitbtn-div{
+        text-align: center;
+        padding-left: 5px;
+    }
+    
+    .postal-submit-btn{
+        background-color: #FCF5ED;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1rem;
+    }
+    
+    .postal-error{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 16%; */
+        text-align: center;
+        padding: 17px 0 0 0;
+    }
+    
+    .loading-div{
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+    
+    .loading-text{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.3rem;
+    }
+    
+    
+    /* Location Component  */
+
+    .location-div-main{
+        padding: 50px 20px 0 20px;
+    }
+    
+    .country-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .country-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .country-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+    }
+    
+    .state-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .state-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .state-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+    }
+    
+    .placeName-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .placeName-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .placeName-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1rem;
+    }
+    
+}
+
+/* table mode  */
+@media screen and (min-width:768px) and (max-width: 992px) {
+
+    html, body{
+        background-color: #CE5A67;
+        overflow-x: hidden;
+    }
+    
+    .header-div{
+        text-align: left;
+        padding: 20px 20px;
+        font-size: 1.3rem;
+        color: #1F1717;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+    }
+    
+    .postal-form-div{
+        text-align: center;
+        padding: 50px 0 0 20px;
+    }
+    
+    .postal-label{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.25rem;
+        padding-right: 10px;
+    }
+    
+    .postal-code-input{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1rem;
+        background-color: #FCF5ED;
+        border-color: #FCF5ED;
+        padding-left: 10px;
+    }
+    
+    .postal-submitbtn-div{
+        padding-left: 5px;
+    }
+    
+    .postal-submit-btn{
+        background-color: #FCF5ED;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1rem;
+    }
+    
+    .postal-error{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 16%; */
+        text-align: center;
+        padding: 17px 0 0 0;
+    }
+    
+    .loading-div{
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .loading-text{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.8rem;
+    }
+    
+    
+    /* Location Component  */
+
+    .location-div-main{
+        padding: 50px 15px 0 30px;
+    }
+    
+    .country-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .country-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .country-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+    }
+    
+    .state-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .state-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .state-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+    }
+    
+    .placeName-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .placeName-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .placeName-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+    }
+    
+}
+
+
+/* pc mode  */
+@media screen and (min-width:992px) {
+
+    html, body{
+        background-color: #CE5A67;
+        overflow-x: hidden;
+    }
+    
+
+    .header-div{
+        text-align: left;
+        padding: 20px 20px;
+        font-size: 1.5rem;
+        color: #1F1717;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-weight: 500;
+    }
+    
+    .postal-form-div{
+        text-align: center;
+        padding: 50px 0 0 30px;
+    }
+    
+    .postal-label{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.4rem;
+        padding-right: 10px;
+    }
+    
+    .postal-code-input{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+        background-color: #FCF5ED;
+        border-color: #FCF5ED;
+        padding-left: 10px;
+    }
+    
+    .postal-submitbtn-div{
+        padding-left: 5px;
+    }
+    
+    .postal-submit-btn{
+        background-color: #FCF5ED;
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.1rem;
+    }
+    
+    .postal-error{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.3rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 17px 0 0 0;
+    }
+    
+    .loading-div{
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .loading-text{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 2rem;
+    }
+    
+    
+    /* Location Component  */
+    
+    .location-div-main{
+        padding: 50px 0 0 50px;
+    }
+    
+
+    .country-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .country-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+    .country-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.3rem;
+    }
+    
+    .state-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .state-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    
+    .state-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.3rem;
+    }
+    
+    .placeName-div{
+        /* text-align: center; */
+        display: inline;
+    }
+    
+    .placeName-name{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .placeName-name-value{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F1717;
+        font-size: 1.2rem;
+    }
+    
+}
