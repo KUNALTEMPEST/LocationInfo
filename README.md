@@ -1,4 +1,4 @@
-This is a webstie where user can put a postal code in the input field and search the location info.
+This is a webstie where user can put a postal code in the input field and search the location info. This website also support multiple screen size.
 There are 3 cases:
 CASE1: user enters correct postal code and get the location information.
 CASE2: user enters false postal code and gets a message to enter correct postal code.
